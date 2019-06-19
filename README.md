@@ -4,6 +4,8 @@ This game tests your knowlage of the UK Top 40 through a hangman-like experience
 
 This game was created for the GCSE Computer Science NEA for 2019 (yes the one which was required to do but was worth 0 marks).
 
+The code submitted was that written [here](https://github.com/wsngamerz/MusicGame--CS-NEA-2019-/commit/3d9262c3a73fc28cde526af9e1fd100a261cd24b)
+
 ### Running the game
 
 firstly, you need to install the python modules required
