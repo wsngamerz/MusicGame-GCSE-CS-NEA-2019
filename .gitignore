@@ -1,0 +1,6 @@
+# Prevent cirtain stuff from being added to git
+main.db
+token.txt
+config.json
+assets/
+.vscode/

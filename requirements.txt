@@ -1,0 +1,4 @@
+mutagen
+playsound
+sqlalchemy
+requests

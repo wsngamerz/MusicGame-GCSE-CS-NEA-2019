@@ -1,0 +1,45 @@
+// NEA Pseudocode
+* this is extremely simplified
+
+check if not already authenticated
+    authenticate with the spotify api
+
+fetch the uk top 40 playlist from spotify
+save playlist in gui state
+
+start the gui class
+    play game page
+        loop through playlist
+            display song name which is formatted with underscores
+            display song artist
+
+            if correct guess
+                add 3 points
+                add 1 correct guess
+                next song page
+                if audio exists
+                    play song
+            
+            if guess incorrect
+                add 1 incorrect guess
+
+                if guess correct
+                    add 1 point
+                    add 1 correct guess
+                    if audio exists
+                        play song
+
+                if guess incorrect
+                    add 1 incorrect guess
+                    if audio exists
+                        play song
+                    end game page
+    
+    end game page
+        display score, correct guesses and incorrect guesses
+        save results to sqlite database
+        show main menu button
+
+    results page
+        query sqlite database for last 5 results
+        display last 5 results in descending order of score
